@@ -11,9 +11,9 @@
 <!-- Logo -->
  <link rel="shortcut icon" href="/img/Logo.png" type="image/png">
 <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 <!-- Titulo -->
-    <title>Sons of Anarchy</title>
+    <title>Sons of Anarchy - Contacto</title>
 </head>
 
 <body>
@@ -21,29 +21,40 @@
 <nav class="navbar">
   <div class="brand">
     <h1>Sons of Anarchy</h1>
-    <img src="./img/Sons-of-Anarchy-Logo.png" alt="Sons of Anarchy" class="logo">
+    <img src="/img/Sons-of-Anarchy-Logo.png" alt="Sons of Anarchy" class="logo">
   </div>
 
   <ul class="menu">
     <li><a href="/index.html">Inicio</a></li>
-    <li><a href="./pages/personajes.html">Personajes</a></li>
-    <li><a href="./pages/temporadas.html">Temporadas</a></li>
-    <li><a href="./pages/contacto.html">Contacto</a></li>
+    <li><a href="/pages/personajes.html">Personajes</a></li>
+    <li><a href="/pages/temporadas.html">Temporadas</a></li>
+    <li><a href="/pages/contacto.html">Contacto</a></li>
   </ul>
 </nav>
 
-
-<!-- Main -->
-<main class="main-content">
-    <h2 class="welcome-title">Bienvenidos al Fan Page de Sons of Anarchy</h2>
-
-    <p class="description">
-        Sons of Anarchy es una serie de televisión estadounidense creada por Kurt Sutter sobre la vida en un club de motociclistas (MC) que opera ilegalmente en Charming (localidad situada en el Condado de San Joaquín), un pueblo ficticio en el Norte de California.cuenta con muchas filiales en los Estados Unidos. 
-        Durante la serie se abrevia en SOA, aunque frecuentemente se refieren al club como SAMCRO (acrónimo de Sons of Anarchy Motorcycle Club, Redwood Original).
+<!-- Main Contacto -->
+<main class="contact-section">
+    <h2 class="contact-title">Contacto</h2>
+    <p class="contact-desc">
+        ¿Quieres dejar un comentario sobre la serie o suscribirte para recibir novedades? Completa el siguiente formulario y nos pondremos en contacto contigo.
     </p>
 
-    <img src="./img/LucaSons.png" alt="Sons of Anarchy Club" class="soa-image">
+    <form class="contact-form" action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <img class="contact-img" src="/img/SonsLogo.png" alt="Contacto Sons of Anarchy">
 </main>
+
 
 <!-- Redes Sociales -->
 <section class="social-section">
@@ -55,7 +66,6 @@
     <a href="https://www.tiktok.com/discover/sons-of-anarchy?lang=es" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
   </div>
 </section>
-
 
 <!-- Footer -->
 <footer class="site-footer">
